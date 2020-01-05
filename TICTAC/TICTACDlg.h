@@ -36,4 +36,5 @@ protected:
 public:
 	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
 	afx_msg void OnRButtonDown(UINT nFlags, CPoint point);
+	afx_msg void OnRButtonDblClk(UINT nFlags, CPoint point);
 };
